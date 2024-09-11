@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+    overflow: hidden;
+    
+}
+
+.header, .footer{
+    background-color: rgb(9, 69, 137);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.header h1{
+    margin: 10px;
+}
+
+.header h3{
+    margin: 5px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.main{
+    text-align: center;
+}
+
+textarea{
+    border: none;
+    width: 60vw;
+    height: 40vh;
+    padding: 15px;
+    margin: 30px;
+    resize: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.clear{
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    width: 60px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.result{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60vw;
+    margin: 20px auto;
+    
+}
+
+.characters, .words{
+
+    background-color: rgb(9, 69, 137);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    margin: 10px;
+    font-size: x-large;
+    width: 140px;
+}
+
+.pageNotFound{
+
+
+    color: rgb(9, 69, 137);
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    margin: 200px auto;
+    
+
+}
+
+
+@media only screen and (max-width: 390px) {
+
+    .characters, .words{
+
+        font-size: medium;
+    
+    }
+    
+}
+
+
+
